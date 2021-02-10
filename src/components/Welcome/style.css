@@ -1,0 +1,70 @@
+.Welcome {
+    width: 720px;
+    height: 230px;
+    padding-right: 0px;
+    border: 2px solid #dafdee;
+    text-align: center;
+    margin: 100px 325px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Welcome .images {
+    display: flex;
+    align-items: right;
+    margin-right: 0px;
+}
+
+.Welcome .images .plant-icon {
+    height: 200px;
+    margin-top: -30px;
+}
+
+.Welcome .images .ability-icon {
+    margin-top: 100px;
+    margin-right: -170px;
+}
+
+.Welcome .texts {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.Welcome .texts h3, p, .buttons {
+    float: right;
+}
+
+.Welcome .texts h3 {
+    font-weight: bold;
+}
+
+.Welcome .texts p {
+    font-size: 15px;
+}
+
+.Welcome .texts button {
+    margin-right: 10px;
+}
+
+.Welcome .texts button {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    width: 180px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.Welcome .texts .training {
+    background-image: linear-gradient(to right, #6fcbca 0%, #85ddb6 51%, #2BC0E4 100%)
+}
+
+.Welcome .texts .share {
+    background-color: #f669a9;
+    margin-right: 20px;
+}

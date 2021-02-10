@@ -1,0 +1,18 @@
+.subscribe {
+    background-color: #fffcee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80px
+}
+
+.subscribe .text {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4f6076
+}
+
+.subscribe image {
+    width: 10px
+}

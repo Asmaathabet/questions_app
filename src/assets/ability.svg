@@ -1,0 +1,10 @@
+<svg id="training_mode" data-name="training mode" xmlns="http://www.w3.org/2000/svg" width="197" height="47" viewBox="0 0 197 47">
+  <g id="Rectangle_1506" data-name="Rectangle 1506" fill="#fff" stroke="#7ad1be" stroke-width="1">
+    <rect width="197" height="47" rx="23.5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="196" height="46" rx="23" fill="none"/>
+  </g>
+  <rect id="Rectangle_1507" data-name="Rectangle 1507" width="98" height="38" rx="19" transform="translate(92 4)" fill="#7ad1be"/>
+  <text id="تحصيلي" transform="translate(82 30)" fill="#7ad1be" font-size="17" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" opacity="0.548"><tspan x="-58.197" y="0">تحصيلي</tspan></text>
+  <text id="قدرات" transform="translate(166 32)" fill="#fdfdfd" font-size="17" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-42.583" y="0">قدرات</tspan></text>
+</svg>
+

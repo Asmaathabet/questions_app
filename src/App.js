@@ -1,12 +1,12 @@
 import Home from './pages/Home'
-import Question from "./pages/Question"
+import Game from "./pages/Game"
 
 function App() {
   return (
     <div className="App">
       <Home />
       <br/>
-      <Question />
+      {/* <Game /> */}
     </div>
   );
 }

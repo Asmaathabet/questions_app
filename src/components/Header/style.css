@@ -1,0 +1,49 @@
+.header {
+    width: auto;
+    max-width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 15px;
+}
+
+.header .header-left .money {
+    width: 80px;
+    height: 100px;
+}
+
+.header .header-right, .header .header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header .header-right .menu {
+    margin: 1em 0 .5em;
+    text-align: center;
+}
+
+.header .header-right .menu, .header .header-right .menu li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header .header-right .menu li a {
+    text-decoration: none;
+    color: #475974;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    padding: 0 10px;
+}
