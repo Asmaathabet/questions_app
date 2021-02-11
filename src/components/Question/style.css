@@ -184,9 +184,11 @@
 .RightAnswer {
     background-color: #dafdee;
 }
+
 .WrongAnswer {
     background-color: #ffd5e8
 }
+
 .RightAnswer button, .WrongAnswer button {
     background-color: #ffffff;
     margin-top: 20px;
@@ -217,4 +219,12 @@
 .WrongAnswer {
     font-weight: bold;
     color: #f87fb6
+}
+
+.score-section {
+    background-color: #73cec5;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff
 }
