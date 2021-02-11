@@ -31,6 +31,7 @@ const handleAnswerOptionClick = (isCorrect) => {
 		setEnable(true);
 	};
 const handleNextQuestion = () =>{
+	setAnswer(false);
 	setEnable(false);
 	const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < Qs.length) {
