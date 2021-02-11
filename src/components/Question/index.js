@@ -37,7 +37,8 @@ const handleAnswerOptionClick = (isCorrect) => {
     <div className='Question'>
        {showScore ? (
 				<div className='score-section'>
-					You scored {score} out of {Qs.length}
+				 نتيجتك هي  {score}
+				  من {Qs.length}
 				</div>
 			) : (
 				<>
