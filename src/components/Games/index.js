@@ -6,6 +6,9 @@ import card4 from '../../assets/card4.svg'
 import card5 from '../../assets/card5.svg'
 import card6 from '../../assets/card6.svg'
 
+import {Link } from 'react-router-dom';
+
+
 import './style.css'
 const Games = () =>{
 
@@ -16,13 +19,13 @@ const Games = () =>{
                  <div className="text"><p>ألعاب بليغ</p></div>     
             </div>
             <ul className="cards">
-                <li><a href="#"><img src={card1}/></a></li>
+                <li><Link to="/question"><img src={card1}/></Link></li>
                 <li><a href="#"><img src={card2}/></a></li>
                 <li><a href="#"><img src={card3}/></a></li>
                 <li><a href="#"><img src={card4}/></a></li>
                 <li><a href="#"><img src={card5}/></a></li>
                 <li><a href="#"><img src={card6}/></a></li>
-            </ul>  
+            </ul> 
         </div>
     )
     
