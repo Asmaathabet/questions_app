@@ -174,3 +174,47 @@
     background-color: #5b87eb;
     border: 2px solid #5b87eb
 }
+
+.RightAnswer, .WrongAnswer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.RightAnswer {
+    background-color: #dafdee;
+}
+.WrongAnswer {
+    background-color: #ffd5e8
+}
+.RightAnswer button, .WrongAnswer button {
+    background-color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 100% auto;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.RightAnswer button {
+    color: #7ad1be;
+}
+
+.WrongAnswer button {
+    color: #f87fb6;
+}
+
+.RightAnswer span {
+    font-weight: bold;
+    color: #7ad1be
+}
+
+.WrongAnswer {
+    font-weight: bold;
+    color: #f87fb6
+}

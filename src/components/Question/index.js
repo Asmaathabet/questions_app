@@ -17,21 +17,31 @@ const Question = (questions) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
+	const [answer, setAnswer] =useState(false);
+	const [enable, setEnable] = useState(false);
     
 const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
+			setAnswer(true);
 			setScore(score + 1);
-			<AlertBox message={"success"} type ={"success"} />
+		} else {
+			setAnswer(false);
 		}
-
-		const nextQuestion = currentQuestion + 1;
+		setEnable(true);
+	};
+const handleNextQuestion = () =>{
+	setEnable(false);
+	const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < Qs.length) {
 			setCurrentQuestion(nextQuestion);
 		} else {
 			setShowScore(true);
 		}
-	};
+}
+const handleAnswer = ()=>{
 
+		
+}	
 	
     return (
     <div className='Question'>
@@ -76,6 +86,21 @@ const handleAnswerOptionClick = (isCorrect) => {
 						<button><img src={clock} /></button>
 						<button><img src={minus} /></button>
 					</div>
+		{enable ? ( 
+			answer ? ( 
+				<div className="RightAnswer">
+					<span> إجابة صحيحة </span>
+					<button onClick={handleNextQuestion}>التالي</button>
+					</div> ):( 
+					<div className="WrongAnswer">
+					الإجابة الصحيحة هي  
+					{Qs[currentQuestion].answerOptions.map((answerOption) => (
+							answerOption.isCorrect? 
+							<span> { answerOption.answerText}</span> : <></>
+						))}
+					<button onClick={handleNextQuestion}>التالي</button>
+					</div> 
+					) ) :(
 					<div className='vertification-section'>
 						<Link to="/">
 						<button className='logout'>
@@ -83,13 +108,13 @@ const handleAnswerOptionClick = (isCorrect) => {
 						</button>
 						</Link>
 						<button className='note'>إغلاق صندوق الملاحظة</button>
-						<button className='confirm'>تحقق من الإجابة</button>
+						<button className='confirm' onClick={() =>handleAnswer(answer)}>تحقق من الإجابة</button>
 					</div>
+					)}
 				</>
 			)}
 		</div>
 
-)
-}
+)}
 
 export default Question;
