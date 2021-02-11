@@ -6,6 +6,7 @@ import minus from '../../assets/minus.svg';
 import differnt from '../../assets/differnt.svg';
 import coins from '../../assets/coins.svg';
 import wrong from '../../assets/wrong.svg';
+import correct from '../../assets/correct.svg';
 import tag from '../../assets/tag.svg';
 import {Link } from 'react-router-dom';
 import AlertBox from './AlertBox'
@@ -61,9 +62,14 @@ const handleAnswer = ()=>{
 									<text>المفردة<br/> الشاذة </text>
 								</button>
 							</div>
+							
 							<div className="sign">
-								<img src={wrong} />
-							</div>
+								{ answer ? (
+								<img src={correct} />) : (
+                                <img src={wrong} />
+								)}
+							</div> 
+                                
 							<div className="counter">
 								<button>	
 									<span>124</span>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="129" viewBox="0 0 129 129">
+  <g id="Duration_Left" data-name="Duration Left" transform="translate(-23.608 -23.608)">
+    <g id="Ellipse_36" data-name="Ellipse 36" transform="translate(23.608 23.608)" fill="none" stroke="#f7f7f7" stroke-linecap="round" stroke-width="12">
+      <circle cx="64.5" cy="64.5" r="64.5" stroke="none"/>
+      <circle cx="64.5" cy="64.5" r="58.5" fill="none"/>
+    </g>
+    <g id="segmant" transform="translate(23.608 23.608)" fill="none" stroke="#7ad1be" stroke-linecap="round" stroke-width="12" stroke-dasharray="420 1000">
+      <circle cx="64.5" cy="64.5" r="64.5" stroke="none"/>
+      <circle cx="64.5" cy="64.5" r="58.5" fill="none"/>
+    </g>
+    <path id="Icon_material-check" data-name="Icon material-check" d="M21.888,40.131,9.376,27.619,5.115,31.85,21.888,48.623,57.9,12.616,53.665,8.385Z" transform="translate(56.608 59.608)" fill="#7ad1be"/>
+  </g>
+</svg>
